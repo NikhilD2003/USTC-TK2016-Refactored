@@ -23,7 +23,7 @@ The original repository had a great conceptual foundation but failed to execute 
 
 Due to the massive size of the network traffic files, the data is split into two access methods to keep this repository fast and lightweight:
 
-* **Raw PCAP & Session Data (`1_Pcap` & `2_Session`):** The original raw PCAP files and the extracted session folders total over 8 GB. You can download these full folders directly from my Google Drive here: `[Insert Google Drive Link Here]`. Place them in the root directory if you want to run the pipeline from the very beginning.
+* **Raw PCAP & Session Data (`1_Pcap` & `2_Session`):** The original raw PCAP files and the extracted session folders total over 8 GB. You can download the compressed version of these folders directly from my Google Drive here: `[Insert Google Drive Link Here]`. Extract them and place them in the root directory if you want to run the pipeline from the very beginning.
  
 * **Pre-Processed Sessions (`3_ProcessedSession`):** If you want to skip the Windows PowerShell extraction steps and jump straight into generating images with Python, I have included a compressed archive right here in the repository! Simply extract the `3_ProcessedSession.tar.gz` (518 MB) file into a folder named `3_ProcessedSession/`, and you are ready to run Step 4 (`3_Session2Png.py`).
 
