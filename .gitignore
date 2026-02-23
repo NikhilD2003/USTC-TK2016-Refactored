@@ -1,0 +1,8 @@
+# Ignore uncompressed massive data folders
+1_Pcap/
+2_Session/
+3_ProcessedSession/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
